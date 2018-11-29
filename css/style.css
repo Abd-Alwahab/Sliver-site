@@ -1,0 +1,307 @@
+html {
+    
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    
+}
+
+
+.padding {
+    padding: 80px 10px;
+   
+}
+
+
+/*============== Add Some Navigation style ==============*/
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.58));
+      box-shadow: 3px 3px 3px #132126;
+} 
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 80%;
+    margin-right: 20px;
+     transition: color 0.5s, background-color 0.5s;
+}
+
+.navbar-light .navbar-brand {
+    color: #cc2323;
+   
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #cc2323;
+    
+}
+
+.logo-icon {
+    color: #cc2323;
+}
+
+
+/*==================== ends the header sextion here ==================== */
+
+
+/*======================== start the hereo image content style ============*/
+
+
+.content {
+    text-align: center;
+    padding: 25% 0 15% 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.53)),url(../images/image.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+} 
+
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content hr {
+    max-width: 150px;
+    background-color: #cc2323;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+
+/* =============== Reuseable Style ================*/
+
+
+h1 {
+    
+    font-size: 200%;
+    font-weight: 300;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+}
+
+h2 {
+    font-size: 180%;
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+h2:after {
+    content: "";
+    max-width: 180px;
+    display: block;
+    height: 2px;
+    background-color: #cc2323;
+    margin: 20px auto 40px auto;
+}
+
+
+h3 {
+     font-size: 150%;
+    font-weight: 200;
+    margin-bottom: 20px;
+  
+}
+/*================ style the buttons ===================*/
+
+.btn {
+    min-width: 130px;
+    font-size: 90%;
+}
+
+.btn-one {
+   margin-right: 15px; 
+    background-color: #000;
+    
+}
+
+.btn-one:hover {
+    
+}
+
+.btn-two {
+    background-color: #cc2323;
+}
+
+.btn-two:hover {
+    
+} 
+
+
+
+/*=============== skills styles========================*/
+
+.skill {
+    position: relative;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 1%;
+    
+}
+
+.skill i {
+    
+    float: left;
+    position: absolute;
+    left: -13px;
+    font-size: 130%;
+    color: #cc2323;
+   
+}
+
+
+.skill p {
+     font-size: 90%;
+        font-family: serif;
+    
+}
+
+
+/*==================== collume style ======================= */
+
+.collume {
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+
+.list-group-item  {
+    border: none;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+.collume img {
+    width: 80%;
+    height: auto;
+    
+}
+
+
+/*==================== collume style ======================= */
+
+.part {
+    margin-top: 30
+}
+
+.part i {
+    margin-bottom: 20px;
+    color: #cc2323;
+    font-size: 200%;
+    
+}
+
+.part p {
+    font-size: 90%;
+    
+}
+
+
+/*==================== collume style ======================= */
+
+
+.full {
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.53)),url(../images/image.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.customers img {
+ width: 100px;
+ height: auto;
+ display: block;
+ margin-top: 10px;
+ margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+.customers blockquote {
+    font-size: 90%;
+}
+
+
+
+/*==================== collume style ======================= */
+
+
+
+
+form input {
+    
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+
+.send {
+    background-color: #cc2323;
+    color: #fff;
+}
+
+
+
+/*==================== collume style ======================= */
+
+
+
+.footer {
+    background-color: #cc2323;
+ 
+    height: 60px;
+    
+}
+
+.footer p {
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+/* ============== animations style ===================*/
+
+.offer {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.offer.animated {
+    opacity: 1;
+}
+
+
+
+.list {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.li.animated {
+    opacity: 1;
+}
